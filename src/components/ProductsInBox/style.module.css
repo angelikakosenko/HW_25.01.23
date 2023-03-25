@@ -1,0 +1,39 @@
+.card{
+    box-shadow: inset 0em 0em 1em #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btnIncr{
+    width: 80px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #839b7d;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnDecr{
+    width: 80px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #9e7a7a;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnIncr:hover{
+    transition: .5s;
+    transform: scale(1.5);
+}
+
+.btnDecr:hover{
+    transition: .5s;
+    transform: scale(1.5);
+}
